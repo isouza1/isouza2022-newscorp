@@ -1,0 +1,37 @@
+<mat-card class="login-page">
+  <mat-card-title>Login</mat-card-title>
+  <mat-card-content>
+    <form [formGroup]="form" class="login-form">
+      <mat-form-field>
+        <input matInput type="email" name="email" formControlName="email" />
+      </mat-form-field>
+
+      <mat-form-field>
+        <input
+          matInput
+          type="password"
+          name="password"
+          formControlName="password"
+        />
+      </mat-form-field>
+
+      <div
+        layout="column"
+        style="height: 100%; display: flex; align-self: center"
+      >
+        <button
+          mat-raised-button
+          color="primary"
+          (click)="login()"
+          [disabled]="!form.valid"
+        >
+          Login
+        </button>
+        <span class="spacer" style="padding-left: 10px"></span>
+        <button mat-raised-button color="primary" [routerLink]="['/register']">
+          Register
+        </button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

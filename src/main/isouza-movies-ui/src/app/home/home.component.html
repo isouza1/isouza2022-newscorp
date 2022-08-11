@@ -1,0 +1,11 @@
+<div class="home-panel" *ngIf="vm$ | async as vm">
+  <mat-toolbar>
+    <span><mat-icon>movie_filter</mat-icon> Movies</span>
+  </mat-toolbar>
+  <mat-toolbar>
+    <span style="display:block">Welcome: {{ user }}</span>
+  </mat-toolbar>
+
+  <app-movies-list [movies]="vm.movies" [allGenres]="vm.allGenres"></app-movies-list>
+
+</div>

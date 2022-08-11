@@ -1,0 +1,6 @@
+runtime: java11
+instance_class: F1
+liveness_check:
+  path: "/liveness_check"
+readiness_check:
+  path: "/liveness_check"

@@ -1,0 +1,70 @@
+<!-- <div class="login-wrapper" fxLayout="row" fxLayoutAlign="center"> -->
+<mat-toolbar>
+  <span>Registration</span>
+</mat-toolbar>
+<mat-card class="my-card">
+  <mat-card-content>
+    <form class="my-form" [formGroup]="form">
+      <mat-card-content>
+        <mat-form-field class="full-width">
+          <mat-label>First Name</mat-label>
+          <input matInput name="fname" formControlName="fname" />
+        </mat-form-field>
+        <mat-form-field class="full-width">
+          <mat-label>Last Name</mat-label>
+          <input matInput name="lname" formControlName="lname" />
+        </mat-form-field>
+        <mat-form-field class="full-width">
+          <mat-label>Email</mat-label>
+          <input
+            matInput
+            email="Email"
+            name="email"
+            formControlName="email"
+            required
+          />
+        </mat-form-field>
+        <mat-error
+          *ngIf="
+            form.controls['email'].invalid &&
+            (form.controls['email'].dirty || form.controls['email'].touched)
+          "
+        >
+          Please enter a valid email address</mat-error
+        >
+        <mat-form-field class="full-width">
+          <mat-label>Password</mat-label>
+          <input
+            formControlName="password"
+            matInput
+            type="Password"
+            name="password"
+            required
+          />
+        </mat-form-field>
+        <mat-error
+          *ngIf="
+            form.controls['password'].invalid &&
+            (form.controls['password'].dirty ||
+              form.controls['password'].touched)
+          "
+        >
+          Passwords need to be between 6 and 10 characters long and contain at
+          least one non alpha-numeric character.
+        </mat-error>
+        <mat-card-actions>
+          <button
+            mat-raised-button
+            color="primary"
+            (click)="register()"
+            class="btn-block"
+            [disabled]="!form.valid"
+          >
+            Register
+          </button>
+        </mat-card-actions>
+      </mat-card-content>
+    </form>
+  </mat-card-content>
+</mat-card>
+<!-- </div> -->

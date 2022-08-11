@@ -1,0 +1,394 @@
+{
+    "dates": {
+        "maximum": "2022-08-07",
+        "minimum": "2022-06-20"
+    },
+    "page": 1,
+    "results": [
+        {
+            "adult": false,
+            "backdrop_path": "/p1F51Lvj3sMopG948F5HsBbl43C.jpg",
+            "genre_ids": [
+                28,
+                12,
+                14
+            ],
+            "id": 616037,
+            "original_language": "en",
+            "original_title": "Thor: Love and Thunder",
+            "overview": "After his retirement is interrupted by Gorr the God Butcher, a galactic killer who seeks the extinction of the gods, Thor enlists the help of King Valkyrie, Korg, and ex-girlfriend Jane Foster, who now inexplicably wields Mjolnir as the Mighty Thor. Together they embark upon a harrowing cosmic adventure to uncover the mystery of the God Butcher’s vengeance and stop him before it’s too late.",
+            "popularity": 10909.273,
+            "poster_path": "/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
+            "release_date": "2022-07-08",
+            "title": "Thor: Love and Thunder",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 1731
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/nmGWzTLMXy9x7mKd8NKPLmHtWGa.jpg",
+            "genre_ids": [
+                10751,
+                16,
+                12,
+                35,
+                14
+            ],
+            "id": 438148,
+            "original_language": "en",
+            "original_title": "Minions: The Rise of Gru",
+            "overview": "A fanboy of a supervillain supergroup known as the Vicious 6, Gru hatches a plan to become evil enough to join them, with the backup of his followers, the Minions.",
+            "popularity": 5730.974,
+            "poster_path": "/wKiOkZTN9lUUUNZLmtnwubZYONg.jpg",
+            "release_date": "2022-07-04",
+            "title": "Minions: The Rise of Gru",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 1115
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/AfvIjhDu9p64jKcmohS4hsPG95Q.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 756999,
+            "original_language": "en",
+            "original_title": "The Black Phone",
+            "overview": "Finney Shaw, a shy but clever 13-year-old boy, is abducted by a sadistic killer and trapped in a soundproof basement where screaming is of little use. When a disconnected phone on the wall begins to ring, Finney discovers that he can hear the voices of the killer’s previous victims. And they are dead set on making sure that what happened to them doesn’t happen to Finney.",
+            "popularity": 3290.08,
+            "poster_path": "/p9ZUzCyy9wRTDuuQexkQ78R2BgF.jpg",
+            "release_date": "2022-06-30",
+            "title": "The Black Phone",
+            "video": false,
+            "vote_average": 8,
+            "vote_count": 1643
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/27Mj3rFYP3xqFy7lnz17vEd8Ms.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 725201,
+            "original_language": "en",
+            "original_title": "The Gray Man",
+            "overview": "When a shadowy CIA agent uncovers damning agency secrets, he's hunted across the globe by a sociopathic rogue operative who's put a bounty on his head.",
+            "popularity": 2870.845,
+            "poster_path": "/8cXbitsS6dWQ5gfMTZdorpAAzEH.jpg",
+            "release_date": "2022-07-14",
+            "title": "The Gray Man",
+            "video": false,
+            "vote_average": 7,
+            "vote_count": 1356
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/C8FpZfTPEZDjngPlatiFsaDB4A.jpg",
+            "genre_ids": [
+                28,
+                35,
+                53
+            ],
+            "id": 718930,
+            "original_language": "en",
+            "original_title": "Bullet Train",
+            "overview": "Unlucky assassin Ladybug is determined to do his job peacefully after one too many gigs gone off the rails. Fate, however, may have other plans, as Ladybug's latest mission puts him on a collision course with lethal adversaries from around the globe—all with connected, yet conflicting, objectives—on the world's fastest train.",
+            "popularity": 1262.094,
+            "poster_path": "/tVxDe01Zy3kZqaZRNiXFGDICdZk.jpg",
+            "release_date": "2022-08-04",
+            "title": "Bullet Train",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 146
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/o31kGDH9GbAZjVLwPYno8XvQGV2.jpg",
+            "genre_ids": [
+                28,
+                53
+            ],
+            "id": 777831,
+            "original_language": "en",
+            "original_title": "9 Bullets",
+            "overview": "A former burlesque dancer turned author discovers a second chance at life and redemption when she risks everything to rescue her young neighbor after he witnesses his parents’ murder. Now on the run from the local crime boss, who happens to be her longtime ex, she makes a desperate attempt to get the boy to safety.",
+            "popularity": 887.681,
+            "poster_path": "/cuFPxoFopAjFUz4oIMUzpzeTA8I.jpg",
+            "release_date": "2022-06-23",
+            "title": "9 Bullets",
+            "video": false,
+            "vote_average": 5.6,
+            "vote_count": 52
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rLo9T9jEg67UZPq3midjLnTUYYi.jpg",
+            "genre_ids": [
+                10402,
+                18,
+                36
+            ],
+            "id": 614934,
+            "original_language": "en",
+            "original_title": "Elvis",
+            "overview": "The life story of Elvis Presley as seen through the complicated relationship with his enigmatic manager, Colonel Tom Parker.",
+            "popularity": 739.567,
+            "poster_path": "/4CYhJ9WNHIc1WRrQ5kYwBtmMvNB.jpg",
+            "release_date": "2022-06-23",
+            "title": "Elvis",
+            "video": false,
+            "vote_average": 7.8,
+            "vote_count": 724
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/ufMDhdkDCwQNO6aAktQTvwqOfSe.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 833417,
+            "original_language": "fr",
+            "original_title": "À plein temps",
+            "overview": "Julie finally gets an interview for a job where she can raise her children better only to run into a national transit strike.",
+            "popularity": 225.226,
+            "poster_path": "/4n7DdwcPQQTC9V62WeAJkYTB8Va.jpg",
+            "release_date": "2022-07-28",
+            "title": "Full Time",
+            "video": false,
+            "vote_average": 7.4,
+            "vote_count": 50
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/bHXrZnsYAh8nfjmB3W2OvfQMVVp.jpg",
+            "genre_ids": [
+                36,
+                28,
+                18,
+                10752
+            ],
+            "id": 588108,
+            "original_language": "ko",
+            "original_title": "한산: 용의 출현",
+            "overview": "In 1592, admiral Yi Sun-sin and his fleet face off against the might of the invading Japanese navy and its formidable warships. As the Korean forces fall into crisis, the admiral resorts to using his secret weapon, the dragon head ships known as geobukseon, in order to change the tide of this epic battle at sea.",
+            "popularity": 40.872,
+            "poster_path": "/erKuvxvfdkUU1nu9cSNGEfGfy4A.jpg",
+            "release_date": "2022-08-05",
+            "title": "Hansan: Rising Dragon",
+            "video": false,
+            "vote_average": 10,
+            "vote_count": 3
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/cMy13qHs6S7R2pjXpMTsr8PlUpK.jpg",
+            "genre_ids": [
+                18,
+                9648
+            ],
+            "id": 682507,
+            "original_language": "en",
+            "original_title": "Where the Crawdads Sing",
+            "overview": "Abandoned by her family, Kya raises herself all alone in the marshes outside of her small town. When her former boyfriend is found dead, Kya is instantly branded by the local townspeople and law enforcement as the prime suspect for his murder.",
+            "popularity": 33.235,
+            "poster_path": "/n1el846gLDXfhOvrRCsyvaAOQWv.jpg",
+            "release_date": "2022-07-21",
+            "title": "Where the Crawdads Sing",
+            "video": false,
+            "vote_average": 6.7,
+            "vote_count": 39
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/rPUiOzvoG4KdhRmNCoazBPVbBON.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 522927,
+            "original_language": "en",
+            "original_title": "The Forgiven",
+            "overview": "Over a weekend in the High Atlas Mountains of Morocco, a random accident reverberates through the lives of both the local Muslims and Western visitors to a house party in a grand villa.",
+            "popularity": 22.233,
+            "poster_path": "/nlwyzhUWSVpRQjUHKFFECPyKPOA.jpg",
+            "release_date": "2022-07-28",
+            "title": "The Forgiven",
+            "video": false,
+            "vote_average": 5.9,
+            "vote_count": 29
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/3mvV2BXwZnQdUuvGECaHoUjxB3d.jpg",
+            "genre_ids": [
+                27,
+                53
+            ],
+            "id": 730167,
+            "original_language": "en",
+            "original_title": "The Reef: Stalked",
+            "overview": "After her sister's murder, Nic, her younger sister and two friends seek solace through a Pacific island kayaking adventure. Hours into the trip the women are stalked by a shark and must band together, face their fears and save each other.",
+            "popularity": 29.246,
+            "poster_path": "/xwzbih0T2aungMzfASUpeGSODrU.jpg",
+            "release_date": "2022-07-28",
+            "title": "The Reef: Stalked",
+            "video": false,
+            "vote_average": 6.4,
+            "vote_count": 54
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                18
+            ],
+            "id": 1000399,
+            "original_language": "en",
+            "original_title": "Anak",
+            "overview": "Masculinity, race and boyhood simmer in this stylish slow-cinema debut about a Filipino-Australian father and his six-year-old son, who are navigating a family divorce.  Exploring the complexities of family, society and culture that shape young Filipinos, this feature debut from rising filmmaker Caleb Ribates depicts the tender relationship between an immigrant father and his young son as they deal with being abandoned by the boy’s mother. With its evocative black-and-white cinematography, long takes and naturalistic dialogue, Anak follows in the footsteps of slow-cinema masters like Lav Diaz and Apichatpong Weerasethakul, while finding an intimacy and tonal register that is all Ribates’ own.",
+            "popularity": 14.945,
+            "poster_path": "/olUiPAXCIQyTpVEOAxYOlqSzABE.jpg",
+            "release_date": "2022-08-07",
+            "title": "Anak",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/dprG5VW5JAbcGQlsXL74Dj7DRjy.jpg",
+            "genre_ids": [
+                35
+            ],
+            "id": 668640,
+            "original_language": "es",
+            "original_title": "Competencia oficial",
+            "overview": "When a billionaire entrepreneur impulsively decides to create an iconic movie, he demands the best. Renowned filmmaker Lola Cuevas is recruited to mastermind this ambitious endeavour. Completing the all-star team are two actors with massive talent but even bigger egos: Hollywood heartthrob Félix Rivero and radical theatre actor Iván Torres. Both are legends, but not exactly best friends. Through a series of increasingly eccentric trials set by Lola, Félix and Iván must confront not only each other but also their own legacies. Who will be left when the cameras finally start rolling?",
+            "popularity": 21.136,
+            "poster_path": "/7AQbfQuLvUzKkEUdgwXExZnCJS9.jpg",
+            "release_date": "2022-07-21",
+            "title": "Official Competition",
+            "video": false,
+            "vote_average": 6.8,
+            "vote_count": 119
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/hHwWcz2tcZXbGekTjAEd5xKbHd4.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 884971,
+            "original_language": "fr",
+            "original_title": "Goliath",
+            "overview": "Patrick is a tenacious lawyer specializing in environmental law. France is a schoolteacher who becomes an activist after her husband develops cancer from exposure to a pesticide. Mathias is an ambitious lobbyist working for an international chemical corporation. The paths of these characters collide as the lives of thousands are affected by a tragic act that sparks a powerful movement while the corporation fights to prevent the truth from being revealed.",
+            "popularity": 13.507,
+            "poster_path": "/o4ZgQIkABKtT0K9Y6XYSqyarmZu.jpg",
+            "release_date": "2022-07-14",
+            "title": "Goliath",
+            "video": false,
+            "vote_average": 6.9,
+            "vote_count": 163
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/swxvZPfrTqjvxo7PAPcDf1u3pPm.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 826113,
+            "original_language": "en",
+            "original_title": "Alone Together",
+            "overview": "Strangers June and Charlie have to learn to coexist when they accidentally book the same Airbnb to get away from the pandemic. Alone Together is the ultimate New York lockdown love story.",
+            "popularity": 12.802,
+            "poster_path": "/pPESxHsPl5uYiJaCRwnnZbOtJV.jpg",
+            "release_date": "2022-08-04",
+            "title": "Alone Together",
+            "video": false,
+            "vote_average": 5,
+            "vote_count": 4
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/4qNR2SUzIT8PB8j4iS9ptjtvRFX.jpg",
+            "genre_ids": [
+                36,
+                28,
+                14,
+                12
+            ],
+            "id": 891445,
+            "original_language": "te",
+            "original_title": "బింబిసార",
+            "overview": "Bimbisara is a ruthless emperor of Trigarala in 500 BC. In unexpected circumstances, Bimbisara travels in time and reaches the current day not knowing that a power-thirsty doctor Subramanya Sastry and Kethu are already waiting for him to come. Bimbisara has to deal with modern day hustle and bustle.",
+            "popularity": 10.759,
+            "poster_path": "/6QxZRJsODH2kNZ6oNd3qug73FoQ.jpg",
+            "release_date": "2022-08-05",
+            "title": "Bimbisara",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/snZCW8qyOmH2jYwCR6DRrm64Kwf.jpg",
+            "genre_ids": [
+                18,
+                10749
+            ],
+            "id": 660000,
+            "original_language": "fr",
+            "original_title": "Illusions perdues",
+            "overview": "Taking place between the years 1837 and 1843, Balzac’s classic novel focuses on the young poet Lucien de Rubempré, who leaves Angouleme for Paris in the pursuit of becoming an author.",
+            "popularity": 9.514,
+            "poster_path": "/uHRIR1STOXEOdNqg1o0bMzN9ZrO.jpg",
+            "release_date": "2022-06-23",
+            "title": "Lost Illusions",
+            "video": false,
+            "vote_average": 7.5,
+            "vote_count": 251
+        },
+        {
+            "adult": false,
+            "backdrop_path": "/1K3Kwzh50eAymDxDiGnisfDFpFS.jpg",
+            "genre_ids": [
+                18
+            ],
+            "id": 588182,
+            "original_language": "fi",
+            "original_title": "Hytti nro 6",
+            "overview": "A young Finnish woman escapes an enigmatic love affair in Moscow by boarding a train to the arctic port of Murmansk. Forced to share the long ride and a tiny sleeping car with a larger than life Russian miner, the unexpected encounter leads the occupants of Compartment No. 6 to face major truths about human connection.",
+            "popularity": 13.446,
+            "poster_path": "/mhP6Dcsr5RQelXHiIHfwwgkvSiq.jpg",
+            "release_date": "2022-07-07",
+            "title": "Compartment No. 6",
+            "video": false,
+            "vote_average": 7.1,
+            "vote_count": 187
+        },
+        {
+            "adult": false,
+            "backdrop_path": null,
+            "genre_ids": [
+                99
+            ],
+            "id": 999137,
+            "original_language": "en",
+            "original_title": "The Endangered Generation?",
+            "overview": "Our world is at a crossroads of myriad crises, but all too often the solutions to the problems we face – especially climate change – are put in the ‘too hard basket. But, as director Celeste Geer discovers, it doesn’t have to be this way. Following Then the Wind Changed, her Walkley Award-winning film about rebuilding after the 2009 Black Saturday bushfires, she sought answers to why, after decades of warnings, we continue to shirk the necessary measures that will prevent all-out climate catastrophe.",
+            "popularity": 7.943,
+            "poster_path": null,
+            "release_date": "2022-08-05",
+            "title": "The Endangered Generation?",
+            "video": false,
+            "vote_average": 0,
+            "vote_count": 0
+        }
+    ],
+    "total_pages": 3,
+    "total_results": 51
+}

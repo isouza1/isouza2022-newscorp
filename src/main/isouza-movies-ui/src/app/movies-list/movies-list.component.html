@@ -1,0 +1,39 @@
+<mat-card
+class="movie-card"
+*ngFor="
+  let movie of movies| paginate: { itemsPerPage: 5, currentPage: page }
+"
+>
+<mat-card-content>
+  <mat-card-header>
+    <mat-card-title>{{ movie.title }}</mat-card-title>
+  </mat-card-header>
+
+  <img
+    mat-card-image
+    [src]="'https://image.tmdb.org/t/p/w500' + movie.poster_path"
+  />
+
+  <mat-card-content>
+    <p>{{ movie.overview }}</p>
+
+    <p>{{ getGenre(movie.genre_ids) }}</p>
+
+  </mat-card-content>
+
+  <mat-card-actions class="movie-actions">
+    <button
+      mat-button
+      class="mat-raised-button mat-primary"
+      [routerLink]="['/movie', movie.id]"
+    >
+      MOVIE DETAILS
+    </button>
+  </mat-card-actions>
+</mat-card-content>
+</mat-card>
+
+  <div class="pag-controls">
+    <pagination-controls (pageChange)="page = $event"></pagination-controls>
+  </div>
+
