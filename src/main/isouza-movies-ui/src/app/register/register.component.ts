@@ -14,7 +14,6 @@ import { Registration } from './registration';
 export class RegisterComponent implements OnInit {
 
   form: FormGroup;
-  Roles: any = ['Admin', 'Author', 'Reader'];
   registration: Registration;
 
   constructor(private fb: FormBuilder,

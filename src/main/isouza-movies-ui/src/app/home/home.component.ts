@@ -36,15 +36,7 @@ export class HomeComponent implements OnInit {
     .pipe(
       map(([movies, allGenres]) =>
         ({ movies, allGenres }))
-      // map(([movies, categories]) => {
-      //   movies.forEach((m) => {
-      //     m.genderName = getGenres(m.genre_ids)
-      //   })
-      //   return ({ movies, categories })
-      // })
     );
-
-
 
 }
 
