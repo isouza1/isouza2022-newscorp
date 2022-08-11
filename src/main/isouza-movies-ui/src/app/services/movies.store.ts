@@ -31,27 +31,27 @@ export class MoviesStore {
   private loadAllMovies() {
 
     // mocking data for dev ...
-    const loadMovies$ = this.http.get('/assets/movies.json')
-      .pipe(
-        map((response: any) => response["results"]),
-        catchError((error: any) => {
-          this.messages.showErrors(error);
-          return of(error) //
-        }),
-        tap(movies => this.subject.next(movies)),
-      );
-
-    // const loadMovies$ = this.http.get<Movie[]>('/api/movies-list')
+    // const loadMovies$ = this.http.get('/assets/movies.json')
     //   .pipe(
     //     map((response: any) => response["results"]),
-    //     catchError(err => {
-    //       const message = "Could not load movies";
-    //       this.messages.showErrors(message);
-    //       console.log(message, err);
-    //       return of(err);
+    //     catchError((error: any) => {
+    //       this.messages.showErrors(error);
+    //       return of(error) //
     //     }),
-    //     tap(movies => this.subject.next(movies))
+    //     tap(movies => this.subject.next(movies)),
     //   );
+
+    const loadMovies$ = this.http.get<Movie[]>('/api/movies-list')
+      .pipe(
+        map((response: any) => response["results"]),
+        catchError(err => {
+          const message = "Could not load movies";
+          this.messages.showErrors(message);
+          console.log(message, err);
+          return of(err);
+        }),
+        tap(movies => this.subject.next(movies))
+      );
 
     this.loading.showLoaderUntilCompleted(loadMovies$)
       .subscribe();
@@ -60,27 +60,27 @@ export class MoviesStore {
   private loadAllGenres() {
 
     // mocking data for dev ...
-    const loadGenres$ = this.http.get('/assets/genres.json')
+    // const loadGenres$ = this.http.get('/assets/genres.json')
+    //   .pipe(
+    //     map((response: any) => response["genres"]),
+    //     catchError((error: any) => {
+    //       this.messages.showErrors(error);
+    //       return of(error) //
+    //     }),
+    //     tap(genres => this.gSubject.next(genres)),
+    //   );
+
+    const loadGenres$ = this.http.get<Movie[]>('/api/genres-list')
       .pipe(
         map((response: any) => response["genres"]),
-        catchError((error: any) => {
-          this.messages.showErrors(error);
-          return of(error) //
+        catchError(err => {
+          const message = "Could not load genres";
+          this.messages.showErrors(message);
+          console.log(message, err);
+          return of(err);
         }),
-        tap(genres => this.gSubject.next(genres)),
+        tap(genres => this.gSubject.next(genres))
       );
-
-    // const loadMovies$ = this.http.get<Movie[]>('/api/movies-list')
-    //   .pipe(
-    //     map((response: any) => response["results"]),
-    //     catchError(err => {
-    //       const message = "Could not load movies";
-    //       this.messages.showErrors(message);
-    //       console.log(message, err);
-    //       return of(err);
-    //     }),
-    //     tap(movies => this.subject.next(movies))
-    //   );
 
     this.loading.showLoaderUntilCompleted(loadGenres$)
       .subscribe();
