@@ -14,6 +14,7 @@ import { Registration } from './registration';
 export class RegisterComponent implements OnInit {
 
   form: FormGroup;
+  Roles: any = ['Admin', 'Author', 'Reader'];
   registration: Registration;
 
   constructor(private fb: FormBuilder,
@@ -39,7 +40,11 @@ export class RegisterComponent implements OnInit {
 
   register() {
     this.loadingService.loadingOn();
-    this.moviesService.register(<Registration>this.form.value)
+    // this.moviesService.register(<Registration>this.form.value)
+    // thisreturn this.http.post<any>(`/api/login`, ,
+    const val = this.form.value;
+
+    this.moviesService.register(val.email, val.password)
       .subscribe({
         complete: () => this.handleSuccess(),
         error: (err: any) => {

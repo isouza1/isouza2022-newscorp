@@ -14,6 +14,8 @@ import org.springframework.security.provisioning.InMemoryUserDetailsManager;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 // @CrossOrigin(origins = "http://localhost:4200")
@@ -36,7 +38,7 @@ class UsersController {
 
 	@PostMapping(value = "/logout", produces = "application/json")
 	public ResponseEntity<String> logout() {
-		
+
 		// could remove user from memory here ...
 		// inMemoryUserDetailsManager.deleteUser(userFromSession.getEmail());
 
@@ -45,22 +47,32 @@ class UsersController {
 				HttpStatus.OK);
 	}
 
-	@PostMapping(value = "/register")
-	public ResponseEntity<UserVO> register(HttpSession session, @RequestBody UserVO userVO) {
-		session.setAttribute(userVO.getEmail(), userVO);
+	// @PostMapping(value = "/register", produces = "application/json")
+	@RequestMapping(value="/register", method=RequestMethod.POST, consumes = "application/json")
+	public ResponseEntity<String> register(HttpSession session, @RequestBody UserTO userTO) {
+		System.out.println("Inside register: username=" + userTO.getEmail() + ", password=" + userTO.getPassword());
+		// session.setAttribute(userVO.getEmail(), userVO);
+		System.out.println("Creating list of authority");
 		ArrayList<SimpleGrantedAuthority> grantedAuthoritiesList = new ArrayList<>();
 		grantedAuthoritiesList.add(new SimpleGrantedAuthority("USER"));
 
 		try {
+
 			inMemoryUserDetailsManager
-					.createUser(new User(userVO.getEmail(), passwordEncoder.encode(userVO.getPassword()),
+					.createUser(new User(userTO.getEmail(), passwordEncoder.encode(userTO.getPassword()),
 							grantedAuthoritiesList));
+
+			System.out.println("Success creating user inMemoryUserDetailsManager: " + inMemoryUserDetailsManager);
 
 		} catch (IllegalArgumentException e) {
 			System.out.println("Registration failed");
 			return new ResponseEntity("User already exists", HttpStatus.BAD_REQUEST);
 		}
 
-		return new ResponseEntity<UserVO>(new UserVO(userVO.getEmail()), HttpStatus.OK);
+		// return new ResponseEntity<UserVO>(new UserVO(userVO.getEmail()),
+		// HttpStatus.OK);
+		System.out.println("Registration succesful, returning sucess status");
+		return new ResponseEntity<String>("{\"password\":null,\"email\":\"" + userTO.getEmail() +
+				"\",\"fname\":null,\"lname\":null}", HttpStatus.OK);
 	}
 }

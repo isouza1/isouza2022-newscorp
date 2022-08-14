@@ -11,13 +11,14 @@ import { Registration } from '../register/registration';
 })
 export class MoviesService {
 
-  private headers = new HttpHeaders({ 'Content-Type': 'application/json' });
+  // private headers = new HttpHeaders({ 'Content-Type': 'application/json' });
 
   constructor(private http: HttpClient) {
   }
 
-  register(userRegistration: Registration): Observable<any> {
-    return this.http.post(`/api/register`, userRegistration, { headers: this.headers })
+  register(email: string, password: string): Observable<any> {
+    // return this.http.post<any>(`/api/login`, { email: username, password: password },
+    return this.http.post(`/api/register`, { email, password }, { headers: {  "Content-Type": "application/json"  } })
       .pipe(
         shareReplay(),
       );
