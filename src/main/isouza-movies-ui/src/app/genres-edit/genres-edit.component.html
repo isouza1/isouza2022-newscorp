@@ -1,0 +1,32 @@
+<div class="form-group klas">
+  <label>Movies genres</label>
+  <div class="btn-group-toggle" *ngFor="let option of genresCheckboxes">
+    <label
+      class="btn badge badge-pill badge-primary"
+      [class.active]="option.checked"
+    >
+      <input
+        type="checkbox"
+        [checked]="option.checked"
+        (change)="updateGenres(cb, option.value)"
+        [value]="option.value"
+        name="resourceKlas"
+        #cb
+      />
+      {{ option.label }}
+    </label>
+  </div>
+  <br />
+  {{ selectedGenres | json }}
+
+  <section class="example-section" *ngFor="let option of genresCheckboxes">
+    <mat-checkbox
+      #matCb
+      (change)="updateGenresMaterialUI(matCb, option.value)"
+      [checked]="option.checked"
+      [value]="option.value"
+      name="resourceKlas"
+      >{{ option.label }}</mat-checkbox
+    >
+  </section>
+</div>

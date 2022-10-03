@@ -4,9 +4,11 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 
-import { HttpClientModule, HttpClientXsrfModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import { HttpClientModule, HttpClientXsrfModule } from '@angular/common/http';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import { MatButtonModule } from '@angular/material/button';
 import { MatCardModule } from '@angular/material/card';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 import { MatDialogModule } from '@angular/material/dialog';
 import { MatIconModule } from '@angular/material/icon';
 import { MatInputModule } from '@angular/material/input';
@@ -20,17 +22,16 @@ import { MatTableModule } from '@angular/material/table';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HomeComponent } from './home/home.component';
-import { LoginComponent } from './login/login.component';
-import { ReactiveFormsModule } from '@angular/forms';
-import { LoadingService } from './loading/loading.service';
-import { MessagesService } from './messages/messages.service';
-import { RegisterComponent } from './register/register.component';
-import { HttpXsrfInterceptor } from './interceptor/http-xsrf.interceptor';
-import { MessagesComponent } from './messages/messages.component';
-import { LoadingComponent } from './loading/loading.component';
 import { NgxPaginationModule } from 'ngx-pagination';
+import { GenresEditComponent } from './genres-edit/genres-edit.component';
+import { HomeComponent } from './home/home.component';
+import { LoadingComponent } from './loading/loading.component';
+import { LoadingService } from './loading/loading.service';
+import { LoginComponent } from './login/login.component';
+import { MessagesComponent } from './messages/messages.component';
+import { MessagesService } from './messages/messages.service';
 import { MoviesListComponent } from './movies-list/movies-list.component';
+import { RegisterComponent } from './register/register.component';
 
 @NgModule({
   declarations: [
@@ -40,7 +41,8 @@ import { MoviesListComponent } from './movies-list/movies-list.component';
     RegisterComponent,
     MessagesComponent,
     LoadingComponent,
-    MoviesListComponent
+    MoviesListComponent,
+    GenresEditComponent
   ],
   imports: [
     BrowserModule,
@@ -48,6 +50,7 @@ import { MoviesListComponent } from './movies-list/movies-list.component';
     BrowserAnimationsModule,
     HttpClientModule,
     ReactiveFormsModule,
+    FormsModule,
 
     // Material UI, this should go in commons but don't have time for this test...
     MatMenuModule,
@@ -64,6 +67,7 @@ import { MoviesListComponent } from './movies-list/movies-list.component';
     MatSortModule,
     MatProgressSpinnerModule,
     MatDialogModule,
+    MatCheckboxModule,
 
     HttpClientXsrfModule,
     NgxPaginationModule
